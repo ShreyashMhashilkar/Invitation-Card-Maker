@@ -23,7 +23,7 @@ const DetailForm = ({ details, setDetails, setAvailable }) => {
 
             <div  style={{backgroundImage:'url(https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
 
-                <div style={{backgroundColor:'#8f14f5'}} class="container py-4 px-5  border border-warning border-5 rounded">
+                <div style={{backgroundColor:'darkblue'}} class="container py-4 px-5  border border-warning border-5 rounded">
 
                     <form className='pb-4' onSubmit={handleSubmit}>
 

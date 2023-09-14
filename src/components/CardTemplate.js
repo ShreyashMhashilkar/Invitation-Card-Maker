@@ -44,7 +44,7 @@ const CardTemplate = ({ details }) => {
         const canvas = await html2canvas(element);
         const image = canvas.toDataURL("image/png", 1.0);
         downloadImage(image, imageFileName);
-        console.log(element);
+         console.log(element);
     };
     const downloadImage = (blob, fileName) => {
         const fakeLink = window.document.createElement("a");
